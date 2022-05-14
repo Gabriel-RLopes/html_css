@@ -114,6 +114,21 @@ main .main-login .right-login .card-login form .text-field label{
     margin-top: 10px;
 }
 
+main .main-login .right-login .card-login p{
+    text-transform: uppercase;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    width: 25vw;
+    padding: 0px;
+    font-weight: 100;
+}
+
+main .main-login .right-login .card-login p a{
+    color:#5d8bf4;
+    text-decoration: none;
+}
+
 main .main-login .right-login .card-login form .btn-login{
     width: 25vw;
     padding: 16px 0;
