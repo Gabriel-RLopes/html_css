@@ -1,0 +1,180 @@
+@import url( 'https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap' );
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+body{
+    background-color: #1b2c4b;
+}
+
+header .container{
+    max-width: 1920px;
+    width: 100%;
+    height:  60px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header .container .logo{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    margin: 0 5px;
+}
+
+header .container .logo ion-icon{
+    color: #5d8bf4;
+}
+
+main .main-sign{
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .main-sign .left-sign{
+    width: 50vw;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .main-sign .left-sign .card-sign{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    background-color: #203a6c;
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px #00000056;
+}
+
+main .main-sign .left-sign .card-sign h1{
+    color: #fff;
+    font-weight: 800;
+    margin: 0;
+}
+
+main .main-sign .left-sign .card-sign form .text-field{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px 0;
+}
+
+main .main-sign .left-sign .card-sign form .text-field input{
+    width: 25vw;
+    border: none;
+    border-radius: 10px;
+    justify-content: center;
+    padding: 15px;
+    background: #406882;
+    color: #fff;
+    font-size: 12pt;
+    box-shadow: 0px 10px 40px #00000056;
+    outline: none;
+}
+
+main .main-sign .left-sign .card-sign form .text-field input::placeholder{
+    color: #fff;
+}
+
+main .main-sign .left-sign .card-sign form .text-field label{
+    color: #fff;
+    margin-top: 10px;
+}
+
+main .main-sign .left-sign .card-sign p{
+    text-transform: uppercase;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    width: 25vw;
+    padding: 0px;
+    font-weight: 100;
+}
+
+main .main-sign .left-sign .card-sign p a{
+    color: #5d8bf4;
+    text-decoration: none;
+}
+
+main .main-sign .left-sign .card-sign form .btn-sign{
+    width: 25vw;
+    padding: 16px 0;
+    margin: 25px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 3px;
+    color: #1b2c4b;
+    background-color: #5d8bf4;
+    cursor: pointer;
+    box-shadow: #4b6dbb;
+}
+
+main .main-sign .right-sign{
+    width: 50vw;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+main .main-sign .right-sign h1{
+    font-size: 3vw;
+    color: #fff;
+}
+
+main .main-sign .right-sign .image{
+    width: 35vw;
+}
+
+@media only screen and ( max-width: 950px ){
+    .card-sign{
+        width: 85%;
+    }
+}
+
+@media only screen and ( max-width: 600px ){
+    .main-sign{
+        flex-direction: column;
+    }
+
+    .right-sign h1{
+        display: none;
+    }
+
+    .left-sign{
+        width: 100%;
+        height: auto;
+    }
+
+    .right-sign{
+        width: 100%;
+        height: auto;
+    }
+
+    .image{
+        width: 50vw;
+    }
+
+    .card-login{
+        width: 90%;
+    }
+}
